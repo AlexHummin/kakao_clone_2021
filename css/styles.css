@@ -1,42 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
 @import "reset.css";
-@import "status-bar.css";
+@import "variables.css";
+/* components */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+/* screeens */
+@import "screens/login.css";
 body {
   font-family: "Roboto Condensed", sans-serif;
-}
-
-.welcome-header {
-  margin: 90px 0;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.welcome-title {
-  margin-bottom: 40px;
-  font-size: 25px;
-}
-
-.welcome-text {
-  width: 45%;
-  opacity: 0.4;
-}
-
-#login-form {
-  display: flex;
-  flex-direction: column;
-  margin: 0 30px;
-}
-
-#login-form input {
-  border: none;
-  padding: 15px 0;
-  font-size: 18px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  margin-bottom: 10px;
-}
-
-#login-form input::placeholder {
-  color: rgba(0, 0, 0, 0.3);
 }
