@@ -9,3 +9,32 @@
   box-sizing: border-box;
   border-top: 1px solid rgba(0, 0, 0, 0.2);
 }
+
+.nav__link {
+  position: relative;
+}
+
+.nav__notification {
+  background-color: tomato;
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+}
+
+.nav__new {
+  background-color: tomato;
+  position: absolute;
+  left: 30px;
+  bottom: 25px;
+  height: 6px;
+  width: 6px;
+  border-radius: 3px;
+}
