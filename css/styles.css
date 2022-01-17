@@ -6,9 +6,14 @@
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
 @import "components/user-component.css";
+@import "components/badge.css";
 /* screeens */
 @import "screens/login.css";
 @import "screens/friends.css";
 body {
   font-family: "Roboto Condensed", sans-serif;
+}
+
+.main-screen {
+  padding: 0px var(--horizontal-space);
 }
