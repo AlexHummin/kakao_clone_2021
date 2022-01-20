@@ -26,9 +26,63 @@
 }
 
 .recommended-friends span {
-  margin: 100px 0;
+  margin: 90px 0;
   display: block;
   text-align: center;
   font-size: 18px;
   color: rgba(0, 0, 0, 0.3);
+}
+
+.open-chat__header {
+  display: flex;
+  justify-content: space-between;
+  opacity: 0.4;
+  margin-bottom: 25px;
+}
+
+.open-chat__header span {
+  opacity: 0.395;
+}
+
+.open-post {
+  display: flex;
+  justify-content: space-between;
+}
+
+.open-post__title {
+  margin-bottom: 7px;
+}
+
+.open-post__hashtags {
+  text-transform: uppercase;
+  opacity: 0.4;
+  margin-bottom: 7px;
+}
+
+.open-post__members {
+  display: flex;
+  align-items: center;
+}
+
+.open-post__members img {
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  margin-right: 5px;
+}
+.open-post__members-count {
+  opacity: 0.3;
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+.open-post__members .divider {
+  width: 1.5px;
+  height: 13px;
+  background-color: rgba(0, 0, 0, 0.2);
+  margin-right: 5px;
+}
+
+.open-post__members-status {
+  color: #ff92d5;
 }
