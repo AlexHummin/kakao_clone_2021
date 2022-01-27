@@ -110,15 +110,36 @@
   position: relative;
 }
 
+.reply i {
+  opacity: 0.4;
+}
+
 .reply input {
-  height: 30px;
+  padding: 10px;
   width: 100%;
   border: var(--main-border);
   border-radius: 20px;
 }
 
-.reply .reply__column:last-child i,
+.reply .reply__column:last-child > i,
 .reply .reply__column:last-child button {
   position: absolute;
-  right: 0;
+  right: -18px;
+  top: 4px;
+}
+
+.reply .reply__column:last-child > i {
+  right: 20px;
+  top: 10px;
+}
+
+.reply__column button {
+  background-color: var(--yellow);
+  height: 28px;
+  width: 28px;
+  border: none;
+  border-radius: 14px;
+}
+.reply__column button i {
+  opacity: 1;
 }
